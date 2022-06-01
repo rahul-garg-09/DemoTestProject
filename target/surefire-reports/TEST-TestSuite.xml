@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="75.804" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/aparthpandey/eclipse-workspace/NewProject/DemoTest"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/aparthpandey/eclipse-workspace/NewProject/DemoTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/xv/qn2hdr4x5njgh5k3wdbdhy7r0000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/aparthpandey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.2.1"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.4/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/aparthpandey"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="aparthpandey"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.4/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase name="LoginTest" classname="test.BaseClass" time="75.804">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Aparth-Pandey&apos;, ip: &apos;2405:201:6010:108a:c9d4:b9a8:9bff:bb2e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.2.1&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: io.testproject.sdk.drivers.ios.IOSDriver&#10;Capabilities {appium:ScaleFactor: 0.0, appium:automationName: XCuiTest, appium:bundleId: com.sprinklr.spaceapp, appium:databaseEnabled: false, appium:deviceName: iPhone 13, appium:forceAppLaunch: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0.0, appium:noReset: true, appium:platformVersion: 15.2, appium:realDevice: false, appium:shouldTerminateApp: true, appium:simpleIsVisibleCheck: true, appium:skipDeviceDetect: true, appium:takesScreenshot: true, appium:udid: 2B940AF5-F9B5-4C0D-B6F3-0FE..., appium:useExternalWDA: true, appium:usePrebuiltWDA: true, appium:waitForQuiescence: false, appium:webDriverAgentUrl: http://localhost:52057, appium:webStorageEnabled: false, platformName: ios, tp:guid: c76dddc0-a4eb-4bca-8bf5-d48...}&#10;Session ID: d02c3646-83b3-42e1-ae9d-323536d6cbd9&#10;*** Element info: {Using=xpath, value=//XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aparth-Pandey', ip: '2405:201:6010:108a:c9d4:b9a8:9bff:bb2e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '17.0.1'
+Driver info: io.testproject.sdk.drivers.ios.IOSDriver
+Capabilities {appium:ScaleFactor: 0.0, appium:automationName: XCuiTest, appium:bundleId: com.sprinklr.spaceapp, appium:databaseEnabled: false, appium:deviceName: iPhone 13, appium:forceAppLaunch: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0.0, appium:noReset: true, appium:platformVersion: 15.2, appium:realDevice: false, appium:shouldTerminateApp: true, appium:simpleIsVisibleCheck: true, appium:skipDeviceDetect: true, appium:takesScreenshot: true, appium:udid: 2B940AF5-F9B5-4C0D-B6F3-0FE..., appium:useExternalWDA: true, appium:usePrebuiltWDA: true, appium:waitForQuiescence: false, appium:webDriverAgentUrl: http://localhost:52057, appium:webStorageEnabled: false, platformName: ios, tp:guid: c76dddc0-a4eb-4bca-8bf5-d48...}
+Session ID: d02c3646-83b3-42e1-ae9d-323536d6cbd9
+*** Element info: {Using=xpath, value=//XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at io.testproject.sdk.internal.helpers.CustomAppiumCommandExecutor.execute(CustomAppiumCommandExecutor.java:124)
+	at io.testproject.sdk.internal.helpers.CustomAppiumCommandExecutor.execute(CustomAppiumCommandExecutor.java:106)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at test.BaseClass.LoginTest(BaseClass.java:155)
+</failure>
+    <system-err><![CDATA[[main] INFO io.testproject.sdk.internal.rest.AgentClient - Inferred [test] and [BaseClass] for Project and Job names accordingly.
+[main] INFO io.testproject.sdk.internal.rest.AgentClient - Using [Aparth Pandey] and [BaseClass] for Project and Job names accordingly.
+[main] INFO io.testproject.sdk.internal.rest.AgentClient - Initializing new session...
+[main] INFO io.testproject.sdk.internal.rest.AgentClient - Session [d02c3646-83b3-42e1-ae9d-323536d6cbd9] initialized
+[main] INFO io.testproject.sdk.internal.rest.AgentClient - Report URL: http://localhost:8585/api/report/20220601-131517.html
+]]></system-err>
+  </testcase>
+</testsuite>
